@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/socket" />
+            <option value="$PROJECT_DIR$/socket/cpp" />
+            <option value="$PROJECT_DIR$/socket/cpp/Demo_SocketClient" />
+            <option value="$PROJECT_DIR$/socket/cpp/Demo_SocketServer" />
+            <option value="$PROJECT_DIR$/socket/cpp/Hello" />
+            <option value="$PROJECT_DIR$/socket/cpp/Primitive_SocketClient" />
+            <option value="$PROJECT_DIR$/socket/cpp/Primitive_SocketServer" />
+            <option value="$PROJECT_DIR$/socket/java" />
+            <option value="$PROJECT_DIR$/socket/java/Primitive_SocketClient" />
+            <option value="$PROJECT_DIR$/socket/java/Primitive_SocketServer" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/test/Hello" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
