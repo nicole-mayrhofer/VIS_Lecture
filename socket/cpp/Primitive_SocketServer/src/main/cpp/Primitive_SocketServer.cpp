@@ -1,6 +1,6 @@
 #include "../headers/Primitive_SocketServer.h"
 
-Primitive_SocketServer::Primitive_SocketServer(int _port) {          // constructor: passive socket
+Environment_SocketServer::Environment_SocketServer(int _port) {          // constructor: passive socket
     cout << "Primitive_SocketServer::Primitive_SocketServer()" << endl;
     port = _port;
 
@@ -28,7 +28,7 @@ Primitive_SocketServer::Primitive_SocketServer(int _port) {          // construc
 
 }
 
-Primitive_SocketServer::~Primitive_SocketServer() {
+Environment_SocketServer::~Environment_SocketServer() {
     cout << "Primitive_SocketServer::~Primitive_SocketServer()" << endl;
     close(passive_socket);
 
@@ -36,7 +36,7 @@ Primitive_SocketServer::~Primitive_SocketServer() {
 }
 
 
-void Primitive_SocketServer::Accept() {
+void Environment_SocketServer::Accept() {
     cout << "Primitive_SocketServer::Accept()" << endl;
     cout << "Server listening for clients ..." << endl;
     bool listening = true;
@@ -52,7 +52,7 @@ void Primitive_SocketServer::Accept() {
 }
 
 
-bool Primitive_SocketServer::Communicate(int _socket) {
+bool Environment_SocketServer::Communicate(int _socket) {
     cout << "Primitive_SocketServer::Communicate()" << endl;
     sockaddr_in peerAddr;
     int peerAddrLen = sizeof(peerAddr);
@@ -119,7 +119,7 @@ int main(int _argc, char** _argv) {
 
 
 
-    Primitive_SocketServer server(port);
+    Environment_SocketServer server(port);
 
     server.Accept();
 

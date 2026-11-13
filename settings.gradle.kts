@@ -14,9 +14,16 @@ include(
     ":socket:cpp:Demo_SocketClient",
     ":socket:cpp:Primitive_SocketServer",
     ":socket:cpp:Primitive_SocketClient",
+    ":socket:cpp:Environment_SocketServer",
     ":socket:cpp:Hello",
     ":socket:java:Primitive_SocketServer",
     ":socket:java:Primitive_SocketClient",
+
     ":test:Hello")
+
+include(
+    ":EnvironmentI",
+    )
+
 
 

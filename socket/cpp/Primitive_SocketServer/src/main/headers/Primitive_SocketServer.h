@@ -14,10 +14,10 @@
 
 using namespace std;
 
-class Primitive_SocketServer {
+class Environment_SocketServer {
 public:
-    Primitive_SocketServer(int _port);
-    ~Primitive_SocketServer();
+    Environment_SocketServer(int _port);
+    ~Environment_SocketServer();
     void Accept();
 
 private:

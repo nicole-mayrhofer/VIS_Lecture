@@ -9,10 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/EnvironmentI" />
             <option value="$PROJECT_DIR$/socket" />
             <option value="$PROJECT_DIR$/socket/cpp" />
             <option value="$PROJECT_DIR$/socket/cpp/Demo_SocketClient" />
             <option value="$PROJECT_DIR$/socket/cpp/Demo_SocketServer" />
+            <option value="$PROJECT_DIR$/socket/cpp/Environment_SocketServer" />
             <option value="$PROJECT_DIR$/socket/cpp/Hello" />
             <option value="$PROJECT_DIR$/socket/cpp/Primitive_SocketClient" />
             <option value="$PROJECT_DIR$/socket/cpp/Primitive_SocketServer" />

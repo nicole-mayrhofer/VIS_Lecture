@@ -50,7 +50,7 @@ int main(int _argc, char** _argv) {
 
 	cout << "Server listening for clients on port "<< port << "..." << endl;
 	int commSocket = accept(passiveSocket, NULL, NULL);
-	if (res == -1) {
+	if (commSocket == -1) {
 		perror("acception failed ...");
 	} else {
 		// aus dem Socket die PeerAdress auslesen
